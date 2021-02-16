@@ -9,13 +9,13 @@ def median(arr):
     return arr[int(len(arr)/2)]
 
 
-#only works if only single number is mode
+#refactored to account for multiple modes in a list
+
 def mode(arr):
     dict = {}
-    mode = 0
+    mode = []
     for item in arr:
         dict[item] = dict.get(item,0)+1
-    for item in dict:
-        if dict[item] > mode:
-            mode = item
-    return mode
+
+    highest = max(list(dict.values()))
+    return [num for num, count in dict.items() if count == highest]
