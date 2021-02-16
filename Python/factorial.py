@@ -2,3 +2,11 @@
 For example: if num = 4, then your program should return 
 (4 * 3 * 2 * 1) = 24  '''
 
+
+#iterative solution
+
+def factorial(num):
+	result = num
+    for i in range(1, num):
+        result = result * i
+    return result
