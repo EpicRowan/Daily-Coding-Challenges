@@ -2,7 +2,7 @@
 ---
 A collection of coding problems in Python that I attempt daily
 
-# **Easy**
+## **Easy**
 ---
 
 * -**[Return the Factorial](/Python/factorial.py)**
