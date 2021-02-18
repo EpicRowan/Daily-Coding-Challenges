@@ -14,3 +14,4 @@ A collection of coding problems in Python that I attempt daily
 ## **Medium**
 
 *  **[Valid opening and closing brackets](/Python/valid_parathesis.py)**
+*  **[Common Prefix](/Python/common_prefix.py)**
