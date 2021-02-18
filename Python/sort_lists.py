@@ -16,3 +16,20 @@ def sorted_lists(lst1,lst2):
 			sorted.append(lst2[lst2_dex])
 			lst2_dex += 1
 	return sorted
+
+# Refactored to account for leftover numbers
+
+def sorted_lists(lst1,lst2):
+    lst1_dex = 0
+    lst2_dex = 0
+    sorted = []
+    while lst1_dex < len(lst1) and lst2_dex < len(lst2):
+        if lst1[lst1_dex] < lst2[lst2_dex]:
+            sorted.append(lst1[lst1_dex])
+            lst1_dex += 1
+        else:
+            sorted.append(lst2[lst2_dex])
+            lst2_dex += 1
+        sorted.extend(lst1[lst1_dex:])
+        sorted.extend(lst2[lst2_dex:])
+        return sorted
