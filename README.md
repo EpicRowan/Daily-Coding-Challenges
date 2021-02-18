@@ -11,3 +11,6 @@ A collection of coding problems in Python that I attempt daily
 *  **[Find the sequence length](/Python/sequence_length.py)**
 
 
+## **Medium**
+
+*  **[Valid opening and closing brackets](/Python/valid_parathesis.py)**
