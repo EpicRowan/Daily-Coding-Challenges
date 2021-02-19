@@ -10,6 +10,7 @@ A collection of coding problems in Python that I attempt daily
 *  **[Change letters in a string](/Python/change_letters.py)**
 *  **[Find the sequence length](/Python/sequence_length.py)**
 *  **[Order dictionary by count](/Python/dictionary_count.py)**
+*  **[Check for a palindrone](/Python/palindrome.py)**
 
 
 ## **Medium**
