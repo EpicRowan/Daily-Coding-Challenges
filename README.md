@@ -20,3 +20,7 @@ A collection of coding problems in Python that I attempt daily
 *  **[Sorted Lists](/Python/sort_lists.py)**
 *  **[One Edit Away](/Python/one_edit.py)**
 *  **[Reverse list in place](/Python/reverse_inplace.py)**
+
+## **Hard**
+
+*  **[Maximum Stock Profit](/Python/stock_profit.py)**
