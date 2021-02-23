@@ -20,6 +20,8 @@ A collection of coding problems in Python that I attempt daily
 *  **[Sorted Lists](/Python/sort_lists.py)**
 *  **[One Edit Away](/Python/one_edit.py)**
 *  **[Reverse list in place](/Python/reverse_inplace.py)**
+*  **[Rotate by k](/Python/rotate_k.py)**
+*  **[Move zeroes to the end](/Python/move_zeros.py)**
 
 ## **Hard**
 
