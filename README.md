@@ -26,3 +26,5 @@ A collection of coding problems in Python that I attempt daily
 ## **Hard**
 
 *  **[Maximum Stock Profit](/Python/stock_profit.py)**
+*  **[Valid Sudoku](/Python/sudoku.py)**
+*  **[Zero Out Matrix](/Python/zero_matrix.py)**
