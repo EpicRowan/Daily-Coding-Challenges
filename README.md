@@ -22,6 +22,7 @@ A collection of coding problems in Python that I attempt daily
 *  **[Reverse list in place](/Python/reverse_inplace.py)**
 *  **[Rotate by k](/Python/rotate_k.py)**
 *  **[Move zeroes to the end](/Python/move_zeros.py)**
+*  **[Reverse a Linked List](/Python/reverse_linked_list.py)**
 
 ## **Hard**
 
