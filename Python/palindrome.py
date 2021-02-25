@@ -9,3 +9,7 @@ def challenge(str):
         start += 1
         end -= 1
     return True
+
+# refactor: ignore cases and makes cases like
+# "A man, a plan, a canal: Panama" 
+# read as true
