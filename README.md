@@ -31,5 +31,6 @@ A collection of coding problems that I attempt daily
 *  **[Maximum Stock Profit](/Python/stock_profit.py)**
 *  **[Valid Sudoku](/Python/sudoku.py)**
 *  **[Zero Out Matrix](/Python/zero_matrix.py)**
+*  **[Product of all except Index](/Python/product_of_all.py)**
 
 <img src="JavaScript/javascript-logo.png" alt="drawing" width="300"/>
