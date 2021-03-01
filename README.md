@@ -32,4 +32,4 @@ A collection of coding problems that I attempt daily
 *  **[Valid Sudoku](/Python/sudoku.py)**
 *  **[Zero Out Matrix](/Python/zero_matrix.py)**
 
-# **JavaScript**
+<img src="JavaScript/javascript-logo.png" alt="drawing" width="300"/>
