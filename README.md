@@ -1,6 +1,8 @@
 # **Code Daily: Coding Challenges**
 ---
-A collection of coding problems in Python that I attempt daily
+A collection of coding problems that I attempt daily
+
+# **Python**
 
 ## **Easy**
 
@@ -29,3 +31,5 @@ A collection of coding problems in Python that I attempt daily
 *  **[Maximum Stock Profit](/Python/stock_profit.py)**
 *  **[Valid Sudoku](/Python/sudoku.py)**
 *  **[Zero Out Matrix](/Python/zero_matrix.py)**
+
+# **JavaScript**
