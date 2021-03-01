@@ -2,7 +2,7 @@
 ---
 A collection of coding problems that I attempt daily
 
-# **Python**
+<img src="Python/python.png" alt="drawing" width="300"/>
 
 ## **Easy**
 
