@@ -40,4 +40,4 @@ def product_except(arr):
 		products_of_all_except_at_index[i] = product_so_far
 		product_so_far *= arr[i]
 
-	return products_of_all_ints_except_at_index
+	return products_of_all_except_at_index
