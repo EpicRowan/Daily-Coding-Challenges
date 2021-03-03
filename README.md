@@ -25,6 +25,7 @@ A collection of coding problems that I attempt daily
 *  **[Rotate by k](/Python/rotate_k.py)**
 *  **[Move zeroes to the end](/Python/move_zeros.py)**
 *  **[Reverse a Linked List](/Python/reverse_linked_list.py)**
+*  **[Make Change](/Python/make_change.py)**
 
 ## **Hard**
 
@@ -32,5 +33,6 @@ A collection of coding problems that I attempt daily
 *  **[Valid Sudoku](/Python/sudoku.py)**
 *  **[Zero Out Matrix](/Python/zero_matrix.py)**
 *  **[Product of all except Index](/Python/product_of_all.py)**
+*  **[Highest of Three](/Python/highest_of_three.py)**
 
 <img src="JavaScript/javascript-logo.png" alt="drawing" width="300"/>
