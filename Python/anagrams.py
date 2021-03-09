@@ -21,3 +21,17 @@ def collect_anagrams(arr):
     return results
 
 print(collect_anagrams(["eat","tea","tan","ate","nat","bat"]))
+
+
+#solution with dictionary
+
+def collect_anagrams(strs):
+    holder = {}
+    for word in strs:
+        x = ''.join(sorted(word))
+        if x in holder:
+            holder[x] += ", " + word
+        else:
+            holder[x] = word
+    return holder
+print(collect_anagrams(["eat","tea","tan","ate","nat","bat"]))
