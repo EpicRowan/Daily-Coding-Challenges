@@ -3,6 +3,7 @@
 
 def mean(arr):
     return sum(arr) / int(len(arr))
+    
 
 def median(arr):
     arr = sorted(arr)
