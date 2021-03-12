@@ -32,3 +32,21 @@ class LinkedList:
         while current:
             print(current.data)
             current = current.next
+
+
+'''Add a .remove_node() method to LinkedList. It should take value_to_remove as a parameter.
+ We'll be looking for a node with this value to remove.'''
+
+ 	def remove_node(self, value_to_remove):
+
+		current_node = self.head
+		if current_node.data == value_to_remove:
+			self.head = current_node.next
+		else:
+			while current_node:
+				next_node = current_node.next
+				if next_node.data == value_to_remove:
+					current_node.next(next_node.next)
+					current_node = None
+				else:
+					current_node = next_node

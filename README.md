@@ -11,6 +11,7 @@
 *  **[Find the sequence length](/Python/sequence_length.py)**
 *  **[Order dictionary by count](/Python/dictionary_count.py)**
 *  **[Check for a palindrone](/Python/palindrome.py)**
+*  **[Create Node and LinkedList classes](/Python/nodes.py)**
 
 
 ## **Medium**
