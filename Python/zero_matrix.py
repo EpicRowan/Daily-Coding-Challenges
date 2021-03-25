@@ -2,29 +2,36 @@
 	in an MxN matrix is 0,the entire row and column 
 	are set to 0.'''
 
-def zero_matrix(matrix):
-	m = len(matrix)
-	n = len(matrix[0])
-	rows = []
-	cols = []
-	for x in range(m):
-		for y in range(n):
-			if matrix[x][y] == 0:
-				rows.append(x)
-				cols.append(y)
+matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
 
- 	for row in rows:
- 		nullify_row(matrix, row)
+class Solution(object):
+    def setZeroes(self, matrix):
+        """
+        :type matrix: List[List[int]]
+        :rtype: None Do not return anything, modify matrix in-place instead.
+        """
+        m = len(matrix)  
+        n = len(matrix[0]) 
+        rows = []
+        cols = []
+        for x in range(m):
+            for y in range(n):
+                if matrix[x][y] == 0:
+                    rows.append(x)
+                    cols.append(y)
 
-	for col in cols:
-		nullify_col(matrix, col)
+        def nullify_row(self, matrix, row):
+            for i in range(len(matrix[0])):
+                matrix[row][i] = 0
 
- 	return matrix
+        def nullify_col(self, matrix, col):
+            for i in range(len(matrix)):
+                matrix[i][col] = 0
+        
+        for row in rows:
+            nullify_row(self,matrix, row)
 
-def nullify_row(matrix, row):
-	for i in range(len(matrix[0])):
-		matrix[row][i] = 0
+        for col in cols:
+            nullify_col(self,matrix, col)
 
-def nullify_col(matrix, col):
-	for i in range(len(matrix)):
-		matrix[i][col] = 0
+        return matrix
