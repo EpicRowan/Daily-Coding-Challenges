@@ -4,7 +4,6 @@
 class Node:
 	def __init__(self, data, next=None):
 		self.data = data
-		self.next = None
 		self.next=next
 
 '''Create a LinkedList class with insert 
