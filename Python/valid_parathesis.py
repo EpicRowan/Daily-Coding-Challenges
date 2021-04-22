@@ -8,7 +8,7 @@
 
 def valid_brackets(str):
     dict = { "}" : "{", ")" : "(","]" : "["}
-    stack = ["{""["]
+    stack = []
     for item in str:
     	# if closing bracket
         if item in dict:
