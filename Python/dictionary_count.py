@@ -6,3 +6,5 @@ def dict_order(dict):
 	counts.sort()
 	for count, word in counts:
 		print('f{count}: {word}')
+
+
